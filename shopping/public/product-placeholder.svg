@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title">
+  <title id="title">Product image coming soon</title>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3eee5"/>
+      <stop offset="1" stop-color="#e3eadf"/>
+    </linearGradient>
+    <linearGradient id="vase" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#94a98f"/>
+      <stop offset="1" stop-color="#58765e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#background)"/>
+  <circle cx="640" cy="180" r="120" fill="#fff" opacity=".35"/>
+  <ellipse cx="400" cy="750" rx="210" ry="32" fill="#263a2b" opacity=".12"/>
+  <path d="M350 355h100l12 80c68 49 100 132 95 240-3 74-62 112-157 112s-154-38-157-112c-5-108 27-191 95-240z" fill="url(#vase)"/>
+  <path d="M360 355h80l-8 57h-64z" fill="#58765e"/>
+  <path d="M400 355c-7-88-33-132-93-174m94 174c24-96 62-139 128-167m-128 167c5-111 9-180 1-246" fill="none" stroke="#617e62" stroke-linecap="round" stroke-width="18"/>
+  <path d="M307 190c-51-11-76-42-76-88 54 6 81 34 76 88zm200-8c45-30 59-68 42-112-48 27-63 64-42 112zM401 173c-34-39-37-80-9-121 34 40 37 81 9 121z" fill="#8fa486"/>
+  <text x="400" y="865" fill="#526253" font-family="Arial, sans-serif" font-size="27" letter-spacing="5" text-anchor="middle">MORROW MARKET</text>
+  <text x="400" y="910" fill="#788477" font-family="Arial, sans-serif" font-size="19" letter-spacing="2" text-anchor="middle">PRODUCT IMAGE COMING SOON</text>
+</svg>

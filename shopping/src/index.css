@@ -1,30 +1,9 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-@keyframes mybanner{
-  25%{ background-image: url("../public/b2.jpg");}
-  50%{ background-image: url("../public/b3.jpg");}
-  75%{background-image: url("../public/b4.jpg"); }
-}
-
-#banner{
-  height: 500px;
-  background-size: 100% 100%;
-  background-image: url("../public/b1.jpg");
-  animation: mybanner;
-  animation-iteration-count: infinite;
-  animation-duration: 5s;
-  filter: contrast(150%);
-}
-
+html { scroll-behavior: smooth; }
+body { margin: 0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; -webkit-font-smoothing: antialiased; }
+button, input, select, textarea { font: inherit; }
+button { cursor: pointer; }
+::selection { background: #a7f3d0; color: #064e3b; }
